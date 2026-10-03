@@ -138,6 +138,7 @@ else
     threads_dep = dependency('threads')
 endif
 
+subdir('bin')
 subdir('src')
 
 pytest = py_module.find_installation(modules: ['pytest'], required: false)
@@ -166,3 +167,4 @@ if build.found()
 else
     message('build not found, skipping example')
 endif
+
