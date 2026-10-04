@@ -4,7 +4,7 @@ project(
     'cpp',
     'cython',
     version: '1.13.1',
-    default_options: ['warning_level=2', 'cpp_std=c++17'],
+    default_options: ['warning_level=2', 'cpp_std=c++17', 'python.install_env=auto'],
 )
 
 # Python
