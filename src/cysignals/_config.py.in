@@ -1,0 +1,6 @@
+r"""
+Build-time configuration information for the cysignals-config
+helper.
+"""
+
+includedir = "@INCLUDEDIR@"
